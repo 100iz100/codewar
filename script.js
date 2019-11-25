@@ -2,7 +2,8 @@ function getData (url, callback){
     var request = new XMLHttpRequest
     request.onreadystatechange = function(event){
         this.readyState === 4 ? this.status === 200 ?
-            callback(this.responseText)
+            callback(this.responseText) :
+                console.warn("error") : null
     }
     request.open("GET",url)
     request.send()
