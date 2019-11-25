@@ -23,7 +23,7 @@ function showGallery (response){
     )
 }
 
-getData("user2.JSON",showGallery)
+getData("user2.json",showGallery)
 getData("hello.txt", getText)
 getData("index.html".textMarcup)
 getData("user_foto.json",showGallery)
