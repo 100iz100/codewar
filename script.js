@@ -27,4 +27,4 @@ function showGallery (response){
 // getData("hello.txt", getText)
 // getData("index.html".textMarcup)
 
-getData("user_foto.json",showGallery)
+getData("./user_foto.json",showGallery)
