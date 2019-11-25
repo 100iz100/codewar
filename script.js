@@ -19,7 +19,7 @@ function getText (text){
 function showGallery (response){
     pictures = JSON.parse(response).forEach(
         picture =>
-        document.body.appendChild(document.create("img")).src = picture.ref
+        document.body.appendChild(document.createElement("img")).src = picture.ref
     )
 }
 
